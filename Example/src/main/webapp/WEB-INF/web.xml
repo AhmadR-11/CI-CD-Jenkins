@@ -7,14 +7,4 @@
 
     <display-name>Prometheus Monitoring App</display-name>
 
-    <servlet>
-        <servlet-name>prometheus-metrics</servlet-name>
-        <servlet-class>io.prometheus.client.exporter.MetricsServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>prometheus-metrics</servlet-name>
-        <url-pattern>/metrics</url-pattern>
-    </servlet-mapping>
-
 </web-app>
